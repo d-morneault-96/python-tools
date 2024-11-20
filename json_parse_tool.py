@@ -7,10 +7,10 @@ from io import BytesIO
 ygo_path = 'ygo_card_data.json'        # file path for json data we're parsing, may need to adjust directory if downloaded locally
 ygo_img_fle = 'c:/scripts/ygo_img/'    # new directory for downloaded .jpg files from json data
 
-################### Read Local JSON file ##############################
+################### Read Local JSON file #############################
 with open(ygo_path, 'r') as ygo_data:
     ygo_json = json.load(ygo_data)
-#######################################################################
+######################################################################
 
 
 ################### Main Loop Starts Here #############################

@@ -60,9 +60,9 @@ def email_attach_chk():
                         # print(xl_save)
                         af.SaveASFile(xl_save)
 
-            #############################################################
-            ### Variable below sets limit on how many emails to check ###
-            #############################################################
+            ############################################################
+            ## Variable below sets limit on how many emails to check ###
+            ############################################################
 
             num_cnt = num_cnt + 1
 
